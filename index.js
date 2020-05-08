@@ -1,6 +1,6 @@
 var neo4j = require("neo4j-driver");
 var driver = neo4j.driver(
-  "bolt://52.23.212.255:33256",
+  "bolt://52.23.212.255:33391",
   neo4j.auth.basic("neo4j", "adaptions-guard-downgrades")
 );
 
